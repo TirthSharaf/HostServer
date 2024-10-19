@@ -1,10 +1,12 @@
-HostServer - Distributed Intelligent Agent Migration in Java
+                                                                                HostServer - Distributed Intelligent Agent Migration in Java
+
 This project is focused on running a HostServer that enables the spawning and migration of distributed intelligent agents using Java. The server interacts with a web-based client, allowing users to create agents and track their movements across different host servers.
 
 Project Overview:
-HostServer.java: This file contains the code for running the HostServer, which accepts connections from a browser and spawns new agents. The agents are then capable of migrating between different host servers as per the instructions.
-The server provides a web interface for interacting with agents, accessible via a browser (e.g., Firefox) at http://localhost:4242.
-The web interface allows users to view the agents' locations and manage their migration in real-time.
+
+• HostServer.java: This file contains the code for running the HostServer, which accepts connections from a browser and spawns new agents. The agents are then capable of migrating between different host servers as per the instructions.
+• The server provides a web interface for interacting with agents, accessible via a browser (e.g., Firefox) at http://localhost:4242.
+• The web interface allows users to view the agents' locations and manage their migration in real-time.
 
 Key Features:
 Agent Spawning: Users can spawn new agents through the web interface.
