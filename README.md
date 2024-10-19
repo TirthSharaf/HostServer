@@ -1,8 +1,8 @@
-HostServer - Distributed Intelligent Agent Migration in Java
+# HostServer - Distributed Intelligent Agent Migration in Java
 
 This project is focused on running a HostServer that enables the spawning and migration of distributed intelligent agents using Java. The server interacts with a web-based client, allowing users to create agents and track their movements across different host servers.
 
-Project Overview:
+## Project Overview:
 
 • HostServer.java: This file contains the code for running the HostServer, which accepts connections from a browser and spawns new agents. The agents are then capable of migrating between different host servers as per the instructions.
 
@@ -11,7 +11,7 @@ Project Overview:
 • The web interface allows users to view the agents' locations and manage their migration in real-time.
 
 
-Key Features:
+## Key Features:
 
 • Agent Spawning: Users can spawn new agents through the web interface.
 
@@ -20,7 +20,7 @@ Key Features:
 • Browser Integration: Interact with the server via a browser at the specified URL to observe and control the behavior of the agents.
 
 
-Technical Details:
+## Technical Details:
 
 • Developed using Java with multi-threaded server-side functionality to handle the spawning and migration of agents.
 
@@ -29,7 +29,7 @@ Technical Details:
 • The server runs locally and interacts with the browser to demonstrate the migration of distributed intelligent agents across different environments.
 
 
-How to Run the Project:
+## How to Run the Project:
 
 • Compile the file using javac HostServer.java.
 
@@ -40,11 +40,11 @@ How to Run the Project:
 • Follow the instructions on the web page to spawn new agents and make them migrate.
 
 
-Custom Modifications:
+## Custom Modifications:
 
 • I added comments throughout the code to explain the functionality of different sections.
 
 • Implemented additional logging to track the movement and status of agents in real-time.
 
 
-This project helped me explore the concept of distributed intelligent agents and how they can be managed across different servers. It also provided a deeper understanding of how to integrate Java with web-based client interactions.
+## This project helped me explore the concept of distributed intelligent agents and how they can be managed across different servers. It also provided a deeper understanding of how to integrate Java with web-based client interactions.
