@@ -11,23 +11,34 @@ Project Overview:
 • The web interface allows users to view the agents' locations and manage their migration in real-time.
 
 Key Features:
-Agent Spawning: Users can spawn new agents through the web interface.
-Agent Migration: Agents can be migrated between different hosts, demonstrating the distributed nature of the system.
-Browser Integration: Interact with the server via a browser at the specified URL to observe and control the behavior of the agents.
+
+• Agent Spawning: Users can spawn new agents through the web interface.
+
+• Agent Migration: Agents can be migrated between different hosts, demonstrating the distributed nature of the system.
+
+• Browser Integration: Interact with the server via a browser at the specified URL to observe and control the behavior of the agents.
 
 Technical Details:
-Developed using Java with multi-threaded server-side functionality to handle the spawning and migration of agents.
-Web-based client interaction: The server provides an HTML page that can be accessed through a browser for real-time interaction.
-The server runs locally and interacts with the browser to demonstrate the migration of distributed intelligent agents across different environments.
+
+• Developed using Java with multi-threaded server-side functionality to handle the spawning and migration of agents.
+
+• Web-based client interaction: The server provides an HTML page that can be accessed through a browser for real-time interaction.
+
+• The server runs locally and interacts with the browser to demonstrate the migration of distributed intelligent agents across different environments.
 
 How to Run the Project:
-Compile the file using javac HostServer.java.
-Run the server with java HostServer.
-Open a browser (e.g., Firefox) and navigate to http://localhost:4242 to view and interact with the server.
-Follow the instructions on the web page to spawn new agents and make them migrate.
+
+• Compile the file using javac HostServer.java.
+
+• Run the server with java HostServer.
+
+•Open a browser (e.g., Firefox) and navigate to http://localhost:4242 to view and interact with the server.
+
+• Follow the instructions on the web page to spawn new agents and make them migrate.
 
 Custom Modifications:
-I added comments throughout the code to explain the functionality of different sections.
-Implemented additional logging to track the movement and status of agents in real-time.
+• I added comments throughout the code to explain the functionality of different sections.
+
+• Implemented additional logging to track the movement and status of agents in real-time.
 
 This project helped me explore the concept of distributed intelligent agents and how they can be managed across different servers. It also provided a deeper understanding of how to integrate Java with web-based client interactions.
