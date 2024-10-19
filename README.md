@@ -10,6 +10,7 @@ Project Overview:
 
 • The web interface allows users to view the agents' locations and manage their migration in real-time.
 
+
 Key Features:
 
 • Agent Spawning: Users can spawn new agents through the web interface.
@@ -18,6 +19,7 @@ Key Features:
 
 • Browser Integration: Interact with the server via a browser at the specified URL to observe and control the behavior of the agents.
 
+
 Technical Details:
 
 • Developed using Java with multi-threaded server-side functionality to handle the spawning and migration of agents.
@@ -25,6 +27,7 @@ Technical Details:
 • Web-based client interaction: The server provides an HTML page that can be accessed through a browser for real-time interaction.
 
 • The server runs locally and interacts with the browser to demonstrate the migration of distributed intelligent agents across different environments.
+
 
 How to Run the Project:
 
@@ -36,9 +39,12 @@ How to Run the Project:
 
 • Follow the instructions on the web page to spawn new agents and make them migrate.
 
+
 Custom Modifications:
+
 • I added comments throughout the code to explain the functionality of different sections.
 
 • Implemented additional logging to track the movement and status of agents in real-time.
+
 
 This project helped me explore the concept of distributed intelligent agents and how they can be managed across different servers. It also provided a deeper understanding of how to integrate Java with web-based client interactions.
